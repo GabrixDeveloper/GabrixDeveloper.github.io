@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moja Strona</title>
+  <title>My Projects</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="box">
-    <h1>Cześć 👋</h1>
-    <p>To moja pierwsza strona internetowa na GitHub Pages.</p>
-    <a class="btn" href="https://github.com/gabrixdeveloper">Mój GitHub</a>
-  </div>
+  <main class="container">
+    <h1>My Projects</h1>
+    <p class="subtitle">Click on a project to open it</p>
+
+    <section class="projects-grid">
+      <a href="/piszon" class="project-card">
+        <h2>Piszon</h2>
+        <p>My first featured project</p>
+      </a>
+
+      <a href="https://github.com/yourusername" class="project-card" target="_blank">
+        <h2>GitHub</h2>
+        <p>Check out my repositories</p>
+      </a>
+
+      <a href="https://example.com" class="project-card" target="_blank">
+        <h2>Another Project</h2>
+        <p>Visit an external website</p>
+      </a>
+    </section>
+  </main>
 </body>
 </html>
